@@ -30,10 +30,12 @@ body{
 }    
 
 .conteiner{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .nav{
@@ -43,6 +45,7 @@ body{
 
 .article{
     padding-left: 50px;
+    font-size: 22px;
 }
 
 .task{
@@ -80,6 +83,10 @@ ul{
 }
 
 .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     color: green;
     border: 1px solid green;
     border-radius: 65%;
@@ -88,13 +95,72 @@ ul{
 }
 
 .cross{
-    font-size: 25px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
     color: red;
     border: 1px solid red;
-    border-radius: 50%;
+    border-radius: 65%;
+    font-size: 20px;
 }
 
 .list-task{
     padding-top: 10px;
+}
+
+.badge-blue{
+    border: 3px solid #7db6f6;
+    background-color: #7db6f6;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
+}
+
+.badge-violet{
+    border: 3px solid #9b7df6;
+    background-color: #9b7df6;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
+}
+
+.badge-green{
+    border: 3px solid #9ff67d;
+    background-color: #9ff67d;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
+}
+
+.badge-orange{
+    border: 3px solid #f6c27d;
+    background-color: #f6c27d;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
+}
+
+.badge-pink{
+    border: 3px solid #ff93a5;
+    background-color: #ff93a5;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
+}
+
+.badge-gold{
+    border: 3px solid gold;
+    background-color: gold;
+    border-radius: 15px;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
 }
 
