@@ -69,3 +69,24 @@ body{
 .task:hover{
     background-color: #7db6f6;
 }
+
+.section-task{
+    padding-top: 20px;
+}
+
+ul{
+   list-style: none; 
+}
+
+.check{
+    size: ;
+    color: green;
+    border: 1px solid green;
+    border-radius: 65%;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.list-task{
+    padding: 10px 0 20px 0px;
+}
