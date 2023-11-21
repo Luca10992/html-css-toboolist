@@ -70,8 +70,9 @@ body{
     background-color: #7db6f6;
 }
 
-.section-task{
+.section-list{
     padding-top: 20px;
+
 }
 
 ul{
@@ -79,7 +80,6 @@ ul{
 }
 
 .check{
-    size: ;
     color: green;
     border: 1px solid green;
     border-radius: 65%;
@@ -87,6 +87,14 @@ ul{
     font-size: 10px;
 }
 
-.list-task{
-    padding: 10px 0 20px 0px;
+.cross{
+    font-size: 25px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
 }
+
+.list-task{
+    padding-top: 10px;
+}
+
